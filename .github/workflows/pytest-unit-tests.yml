@@ -33,3 +33,10 @@ jobs:
     - name: Test with pytest
       run: |
         pytest tests/
+
+
+on:
+  workflow_dispatch:
+    inputs:
+      tags:
+        description: 'Run this workflow'
