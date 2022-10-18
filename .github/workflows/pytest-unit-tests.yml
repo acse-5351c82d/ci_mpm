@@ -35,8 +35,8 @@ jobs:
         pytest tests/
 
 
-on:
-  workflow_dispatch:
-    inputs:
-      tags:
-        description: 'Run this workflow'
+# on:
+#   workflow_dispatch:
+#     inputs:
+#       tags:
+#         description: 'Run this workflow'
